@@ -68,19 +68,19 @@
 			<material name="white"/>
 		</visual>
 		<collision>
-			<origin xyz="0 0 0" rpy="0.0 0.0 0.0"/>
+			<origin xyz="0.004999999999999997 -0.0018770780631086805 0.049500000670552255" rpy="0.0 0.0 0.0"/>
 			<geometry>
 				<mesh filename="package://orcahand_description/v2/models/assets/left/collision/L-Carpals_distal.stl" scale="0.001 0.001 0.001"/>
 			</geometry>
 		</collision>
 		<collision>
-			<origin xyz="0 0 0" rpy="0.0 0.0 0.0"/>
+			<origin xyz="0.004999999999999997 -0.0018770780631086805 0.049500000670552255" rpy="0.0 0.0 0.0"/>
 			<geometry>
 				<mesh filename="package://orcahand_description/v2/models/assets/left/collision/L-Carpals_proximal.stl" scale="0.001 0.001 0.001"/>
 			</geometry>
 		</collision>
 		<collision>
-			<origin xyz="0 0 0" rpy="0.0 0.0 0.0"/>
+			<origin xyz="0.004999999999999997 -0.0018770780631086805 0.049500000670552255" rpy="0.0 0.0 0.0"/>
 			<geometry>
 				<mesh filename="package://orcahand_description/v2/models/assets/left/collision/L-Carpals_wrist.stl" scale="0.001 0.001 0.001"/>
 			</geometry>
@@ -109,7 +109,7 @@
 			<material name="white"/>
 		</visual>
 		<collision>
-			<origin xyz="0 0 0" rpy="0.0 0.0 0.0"/>
+			<origin xyz="0.017749999999999967 -2.42861286636753e-17 -0.0010000000000000217" rpy="0.0 0.0 0.0"/>
 			<geometry>
 				<mesh filename="package://orcahand_description/v2/models/assets/left/collision/P-AP.stl" scale="0.001 0.001 0.001"/>
 			</geometry>
@@ -138,13 +138,13 @@
 			<material name="white"/>
 		</visual>
 		<collision>
-			<origin xyz="0 0 0" rpy="0.0 0.0 0.0"/>
+			<origin xyz="-4.1531875769068695e-17 -9.105164359140306e-18 -3.8292038109168244e-17" rpy="0.0 0.0 0.0"/>
 			<geometry>
 				<mesh filename="package://orcahand_description/v2/models/assets/left/collision/P-PP_PP.stl" scale="0.001 0.001 0.001"/>
 			</geometry>
 		</collision>
 		<collision>
-			<origin xyz="0 0 0" rpy="0.0 0.0 0.0"/>
+			<origin xyz="-4.1531875769068695e-17 -9.105164359140306e-18 -3.8292038109168244e-17" rpy="0.0 0.0 0.0"/>
 			<geometry>
 				<mesh filename="package://orcahand_description/v2/models/assets/left/collision/P-PP_Skin.stl" scale="0.001 0.001 0.001"/>
 			</geometry>
@@ -173,13 +173,13 @@
 			<material name="white"/>
 		</visual>
 		<collision>
-			<origin xyz="0 0 0" rpy="0.0 0.0 0.0"/>
+			<origin xyz="5.593042944930372e-17 -9.962165250943912e-18 1.5546348698018324e-16" rpy="0.0 0.0 0.0"/>
 			<geometry>
 				<mesh filename="package://orcahand_description/v2/models/assets/left/collision/P-IP_IP.stl" scale="0.001 0.001 0.001"/>
 			</geometry>
 		</collision>
 		<collision>
-			<origin xyz="0 0 0" rpy="0.0 0.0 0.0"/>
+			<origin xyz="5.593042944930372e-17 -9.962165250943912e-18 1.5546348698018324e-16" rpy="0.0 0.0 0.0"/>
 			<geometry>
 				<mesh filename="package://orcahand_description/v2/models/assets/left/collision/P-DP-Skin.stl" scale="0.001 0.001 0.001"/>
 			</geometry>
@@ -208,7 +208,7 @@
 			<material name="white"/>
 		</visual>
 		<collision>
-			<origin xyz="0 0 0" rpy="0.0 0.0 0.0"/>
+			<origin xyz="0.019249999999999923 -1.734723475976807e-18 -0.0009999999999999961" rpy="0.0 0.0 0.0"/>
 			<geometry>
 				<mesh filename="package://orcahand_description/v2/models/assets/left/collision/M-AP.stl" scale="0.001 0.001 0.001"/>
 			</geometry>
@@ -237,13 +237,13 @@
 			<material name="white"/>
 		</visual>
 		<collision>
-			<origin xyz="0 0 0" rpy="0.0 0.0 0.0"/>
+			<origin xyz="1.7894285379910634e-17 -1.0522308765464415e-17 1.0523467387009805e-17" rpy="0.0 0.0 0.0"/>
 			<geometry>
 				<mesh filename="package://orcahand_description/v2/models/assets/left/collision/M-PP_PP.stl" scale="0.001 0.001 0.001"/>
 			</geometry>
 		</collision>
 		<collision>
-			<origin xyz="0 0 0" rpy="0.0 0.0 0.0"/>
+			<origin xyz="1.7894285379910634e-17 -1.0522308765464415e-17 1.0523467387009805e-17" rpy="0.0 0.0 0.0"/>
 			<geometry>
 				<mesh filename="package://orcahand_description/v2/models/assets/left/collision/M-PP_Skin.stl" scale="0.001 0.001 0.001"/>
 			</geometry>
@@ -272,13 +272,13 @@
 			<material name="white"/>
 		</visual>
 		<collision>
-			<origin xyz="0 0 0" rpy="0.0 0.0 0.0"/>
+			<origin xyz="-4.078794186312799e-17 -1.9049422236114406e-17 1.0521305495457033e-16" rpy="0.0 0.0 0.0"/>
 			<geometry>
 				<mesh filename="package://orcahand_description/v2/models/assets/left/collision/M-IP_IP.stl" scale="0.001 0.001 0.001"/>
 			</geometry>
 		</collision>
 		<collision>
-			<origin xyz="0 0 0" rpy="0.0 0.0 0.0"/>
+			<origin xyz="-4.078794186312799e-17 -1.9049422236114406e-17 1.0521305495457033e-16" rpy="0.0 0.0 0.0"/>
 			<geometry>
 				<mesh filename="package://orcahand_description/v2/models/assets/left/collision/M-DP-Skin.stl" scale="0.001 0.001 0.001"/>
 			</geometry>
@@ -307,7 +307,7 @@
 			<material name="white"/>
 		</visual>
 		<collision>
-			<origin xyz="0 0 0" rpy="0.0 0.0 0.0"/>
+			<origin xyz="0.019249999999999982 1.214306433183765e-17 -0.0010000000000000213" rpy="0.0 0.0 0.0"/>
 			<geometry>
 				<mesh filename="package://orcahand_description/v2/models/assets/left/collision/M-AP.stl" scale="0.001 0.001 0.001"/>
 			</geometry>
@@ -336,13 +336,13 @@
 			<material name="white"/>
 		</visual>
 		<collision>
-			<origin xyz="0 0 0" rpy="0.0 0.0 0.0"/>
+			<origin xyz="-7.162795302343035e-17 1.2189131211851784e-17 1.7580316556723272e-17" rpy="0.0 0.0 0.0"/>
 			<geometry>
 				<mesh filename="package://orcahand_description/v2/models/assets/left/collision/M-PP_PP.stl" scale="0.001 0.001 0.001"/>
 			</geometry>
 		</collision>
 		<collision>
-			<origin xyz="0 0 0" rpy="0.0 0.0 0.0"/>
+			<origin xyz="-7.162795302343035e-17 1.2189131211851784e-17 1.7580316556723272e-17" rpy="0.0 0.0 0.0"/>
 			<geometry>
 				<mesh filename="package://orcahand_description/v2/models/assets/left/collision/M-PP_Skin.stl" scale="0.001 0.001 0.001"/>
 			</geometry>
@@ -371,13 +371,13 @@
 			<material name="white"/>
 		</visual>
 		<collision>
-			<origin xyz="0 0 0" rpy="0.0 0.0 0.0"/>
+			<origin xyz="-5.004759988748243e-17 1.4318233198945493e-17 1.6821919643190915e-16" rpy="0.0 0.0 0.0"/>
 			<geometry>
 				<mesh filename="package://orcahand_description/v2/models/assets/left/collision/M-IP_IP.stl" scale="0.001 0.001 0.001"/>
 			</geometry>
 		</collision>
 		<collision>
-			<origin xyz="0 0 0" rpy="0.0 0.0 0.0"/>
+			<origin xyz="-5.004759988748243e-17 1.4318233198945493e-17 1.6821919643190915e-16" rpy="0.0 0.0 0.0"/>
 			<geometry>
 				<mesh filename="package://orcahand_description/v2/models/assets/left/collision/M-DP-Skin.stl" scale="0.001 0.001 0.001"/>
 			</geometry>
@@ -406,7 +406,7 @@
 			<material name="white"/>
 		</visual>
 		<collision>
-			<origin xyz="0 0 0" rpy="0.0 0.0 0.0"/>
+			<origin xyz="0.01875000000000003 -1.734723475976807e-18 -0.000999999999999964" rpy="0.0 0.0 0.0"/>
 			<geometry>
 				<mesh filename="package://orcahand_description/v2/models/assets/left/collision/I-AP-L.stl" scale="0.001 0.001 0.001"/>
 			</geometry>
@@ -435,13 +435,13 @@
 			<material name="white"/>
 		</visual>
 		<collision>
-			<origin xyz="0 0 0" rpy="0.0 0.0 0.0"/>
+			<origin xyz="-8.461858417315034e-17 -1.4799510442361432e-17 1.3855749603332276e-17" rpy="0.0 0.0 0.0"/>
 			<geometry>
 				<mesh filename="package://orcahand_description/v2/models/assets/left/collision/I-PP_PP.stl" scale="0.001 0.001 0.001"/>
 			</geometry>
 		</collision>
 		<collision>
-			<origin xyz="0 0 0" rpy="0.0 0.0 0.0"/>
+			<origin xyz="-8.461858417315034e-17 -1.4799510442361432e-17 1.3855749603332276e-17" rpy="0.0 0.0 0.0"/>
 			<geometry>
 				<mesh filename="package://orcahand_description/v2/models/assets/left/collision/I-PP_Skin.stl" scale="0.001 0.001 0.001"/>
 			</geometry>
@@ -470,13 +470,13 @@
 			<material name="white"/>
 		</visual>
 		<collision>
-			<origin xyz="0 0 0" rpy="0.0 0.0 0.0"/>
+			<origin xyz="-6.384780199281326e-17 1.6933625513663662e-18 9.316585525567554e-17" rpy="0.0 0.0 0.0"/>
 			<geometry>
 				<mesh filename="package://orcahand_description/v2/models/assets/left/collision/I-IP_IP.stl" scale="0.001 0.001 0.001"/>
 			</geometry>
 		</collision>
 		<collision>
-			<origin xyz="0 0 0" rpy="0.0 0.0 0.0"/>
+			<origin xyz="-6.384780199281326e-17 1.6933625513663662e-18 9.316585525567554e-17" rpy="0.0 0.0 0.0"/>
 			<geometry>
 				<mesh filename="package://orcahand_description/v2/models/assets/left/collision/I-DP-Skin.stl" scale="0.001 0.001 0.001"/>
 			</geometry>
@@ -505,7 +505,7 @@
 			<material name="white"/>
 		</visual>
 		<collision>
-			<origin xyz="0 0 0" rpy="0.0 0.0 0.0"/>
+			<origin xyz="4.228388472693467e-18 -4.911435841359335e-17 -0.003850000000000067" rpy="0.0 0.0 0.0"/>
 			<geometry>
 				<mesh filename="package://orcahand_description/v2/models/assets/left/collision/T-TP-L.stl" scale="0.001 0.001 0.001"/>
 			</geometry>
@@ -534,7 +534,7 @@
 			<material name="white"/>
 		</visual>
 		<collision>
-			<origin xyz="0 0 0" rpy="0.0 0.0 0.0"/>
+			<origin xyz="0.028 2.6020852139652106e-17 -9.540979117872439e-17" rpy="0.0 0.0 0.0"/>
 			<geometry>
 				<mesh filename="package://orcahand_description/v2/models/assets/left/collision/L-T-AP.stl" scale="0.001 0.001 0.001"/>
 			</geometry>
@@ -563,13 +563,13 @@
 			<material name="white"/>
 		</visual>
 		<collision>
-			<origin xyz="0 0 0" rpy="0.0 0.0 0.0"/>
+			<origin xyz="-1.969071627370024e-16 -3.15114617423654e-17 -2.696802036606928e-17" rpy="0.0 0.0 0.0"/>
 			<geometry>
 				<mesh filename="package://orcahand_description/v2/models/assets/left/collision/T-PP_PP.stl" scale="0.001 0.001 0.001"/>
 			</geometry>
 		</collision>
 		<collision>
-			<origin xyz="0 0 0" rpy="0.0 0.0 0.0"/>
+			<origin xyz="-1.969071627370024e-16 -3.15114617423654e-17 -2.696802036606928e-17" rpy="0.0 0.0 0.0"/>
 			<geometry>
 				<mesh filename="package://orcahand_description/v2/models/assets/left/collision/T-PP_Skin.stl" scale="0.001 0.001 0.001"/>
 			</geometry>
@@ -598,13 +598,13 @@
 			<material name="white"/>
 		</visual>
 		<collision>
-			<origin xyz="0 0 0" rpy="0.0 0.0 0.0"/>
+			<origin xyz="-2.6951590953616836e-16 -1.4511389580442956e-16 4.4964986238156687e-17" rpy="0.0 0.0 0.0"/>
 			<geometry>
 				<mesh filename="package://orcahand_description/v2/models/assets/left/collision/T-DP_T-DP.stl" scale="0.001 0.001 0.001"/>
 			</geometry>
 		</collision>
 		<collision>
-			<origin xyz="0 0 0" rpy="0.0 0.0 0.0"/>
+			<origin xyz="-2.6951590953616836e-16 -1.4511389580442956e-16 4.4964986238156687e-17" rpy="0.0 0.0 0.0"/>
 			<geometry>
 				<mesh filename="package://orcahand_description/v2/models/assets/left/collision/T-DP_Skin.stl" scale="0.001 0.001 0.001"/>
 			</geometry>
