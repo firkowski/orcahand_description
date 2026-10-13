@@ -192,6 +192,7 @@ BODY_RULES = (
     ("pos", (0,)),      # body/geom/joint positions: x -> -x
     ("quat", (2, 3)),   # quaternions (w x y z): y, z -> negated (M @ R @ M)
     ("axis", (1, 2)),   # joint axes: same-angle mirror axis = -M @ a
+    ("fullinertia", (3, 4)),  # (ixx iyy izz ixy ixz iyz): ixy, ixz negated
 )
 
 
