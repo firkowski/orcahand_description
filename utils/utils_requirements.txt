@@ -1,4 +1,5 @@
 trimesh
+scipy
 fast_simplification
 tabulate
 termcolor

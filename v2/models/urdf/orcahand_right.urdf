@@ -18,6 +18,12 @@
 			</geometry>
 			<material name="white"/>
 		</visual>
+		<collision>
+			<origin xyz="0 0 0" rpy="0.0 0.0 0.0"/>
+			<geometry>
+				<mesh filename="package://orcahand_description/v2/models/assets/right/collision/ForeArmStructure-Model.stl" scale="0.001 0.001 0.001"/>
+			</geometry>
+		</collision>
 	</link>
 	
 	<!-- TopTower-Model_4a80d30e -->
@@ -34,6 +40,12 @@
 			</geometry>
 			<material name="white"/>
 		</visual>
+		<collision>
+			<origin xyz="0 0 0" rpy="0.0 0.0 0.0"/>
+			<geometry>
+				<mesh filename="package://orcahand_description/v2/models/assets/right/collision/TopTower-Model.stl" scale="0.001 0.001 0.001"/>
+			</geometry>
+		</collision>
 	</link>
 	<joint type="fixed" name="TopTower-Model_4a80d30e_to_ForeArmStructure-Model_e18f2368">
 		<parent link="ForeArmStructure-Model_e18f2368"/>
@@ -55,6 +67,24 @@
 			</geometry>
 			<material name="white"/>
 		</visual>
+		<collision>
+			<origin xyz="0 0 0" rpy="0.0 0.0 0.0"/>
+			<geometry>
+				<mesh filename="package://orcahand_description/v2/models/assets/right/collision/R-Carpals_distal.stl" scale="0.001 0.001 0.001"/>
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" rpy="0.0 0.0 0.0"/>
+			<geometry>
+				<mesh filename="package://orcahand_description/v2/models/assets/right/collision/R-Carpals_proximal.stl" scale="0.001 0.001 0.001"/>
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" rpy="0.0 0.0 0.0"/>
+			<geometry>
+				<mesh filename="package://orcahand_description/v2/models/assets/right/collision/R-Carpals_wrist.stl" scale="0.001 0.001 0.001"/>
+			</geometry>
+		</collision>
 	</link>
 	<joint type="revolute" name="R-Carpals_8d1f1041_to_TopTower-Model_4a80d30e">
 		<parent link="TopTower-Model_4a80d30e"/>
@@ -78,6 +108,12 @@
 			</geometry>
 			<material name="white"/>
 		</visual>
+		<collision>
+			<origin xyz="0 0 0" rpy="0.0 0.0 0.0"/>
+			<geometry>
+				<mesh filename="package://orcahand_description/v2/models/assets/right/collision/P-AP.stl" scale="0.001 0.001 0.001"/>
+			</geometry>
+		</collision>
 	</link>
 	<joint type="revolute" name="P-AP_f5e42b61_to_R-Carpals_8d1f1041">
 		<parent link="R-Carpals_8d1f1041"/>
@@ -101,6 +137,18 @@
 			</geometry>
 			<material name="white"/>
 		</visual>
+		<collision>
+			<origin xyz="0 0 0" rpy="0.0 0.0 0.0"/>
+			<geometry>
+				<mesh filename="package://orcahand_description/v2/models/assets/right/collision/P-PP_PP.stl" scale="0.001 0.001 0.001"/>
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" rpy="0.0 0.0 0.0"/>
+			<geometry>
+				<mesh filename="package://orcahand_description/v2/models/assets/right/collision/P-PP_Skin.stl" scale="0.001 0.001 0.001"/>
+			</geometry>
+		</collision>
 	</link>
 	<joint type="revolute" name="P-PP_1d411b9b_to_P-AP_f5e42b61">
 		<parent link="P-AP_f5e42b61"/>
@@ -124,6 +172,18 @@
 			</geometry>
 			<material name="white"/>
 		</visual>
+		<collision>
+			<origin xyz="0 0 0" rpy="0.0 0.0 0.0"/>
+			<geometry>
+				<mesh filename="package://orcahand_description/v2/models/assets/right/collision/P-IP_IP.stl" scale="0.001 0.001 0.001"/>
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" rpy="0.0 0.0 0.0"/>
+			<geometry>
+				<mesh filename="package://orcahand_description/v2/models/assets/right/collision/P-DP-Skin.stl" scale="0.001 0.001 0.001"/>
+			</geometry>
+		</collision>
 	</link>
 	<joint type="revolute" name="P-FingerTipAssembly_cd219176_to_P-PP_1d411b9b">
 		<parent link="P-PP_1d411b9b"/>
@@ -147,6 +207,12 @@
 			</geometry>
 			<material name="white"/>
 		</visual>
+		<collision>
+			<origin xyz="0 0 0" rpy="0.0 0.0 0.0"/>
+			<geometry>
+				<mesh filename="package://orcahand_description/v2/models/assets/right/collision/M-AP.stl" scale="0.001 0.001 0.001"/>
+			</geometry>
+		</collision>
 	</link>
 	<joint type="revolute" name="M-AP_6ec59111_to_R-Carpals_8d1f1041">
 		<parent link="R-Carpals_8d1f1041"/>
@@ -170,6 +236,18 @@
 			</geometry>
 			<material name="white"/>
 		</visual>
+		<collision>
+			<origin xyz="0 0 0" rpy="0.0 0.0 0.0"/>
+			<geometry>
+				<mesh filename="package://orcahand_description/v2/models/assets/right/collision/M-PP_PP.stl" scale="0.001 0.001 0.001"/>
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" rpy="0.0 0.0 0.0"/>
+			<geometry>
+				<mesh filename="package://orcahand_description/v2/models/assets/right/collision/M-PP_Skin.stl" scale="0.001 0.001 0.001"/>
+			</geometry>
+		</collision>
 	</link>
 	<joint type="revolute" name="M-PP_8660a1eb_to_M-AP_6ec59111">
 		<parent link="M-AP_6ec59111"/>
@@ -193,6 +271,18 @@
 			</geometry>
 			<material name="white"/>
 		</visual>
+		<collision>
+			<origin xyz="0 0 0" rpy="0.0 0.0 0.0"/>
+			<geometry>
+				<mesh filename="package://orcahand_description/v2/models/assets/right/collision/M-IP_IP.stl" scale="0.001 0.001 0.001"/>
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" rpy="0.0 0.0 0.0"/>
+			<geometry>
+				<mesh filename="package://orcahand_description/v2/models/assets/right/collision/M-DP-Skin.stl" scale="0.001 0.001 0.001"/>
+			</geometry>
+		</collision>
 	</link>
 	<joint type="revolute" name="M-FingerTipAssembly_424a8e75_to_M-PP_8660a1eb">
 		<parent link="M-PP_8660a1eb"/>
@@ -216,6 +306,12 @@
 			</geometry>
 			<material name="white"/>
 		</visual>
+		<collision>
+			<origin xyz="0 0 0" rpy="0.0 0.0 0.0"/>
+			<geometry>
+				<mesh filename="package://orcahand_description/v2/models/assets/right/collision/M-AP.stl" scale="0.001 0.001 0.001"/>
+			</geometry>
+		</collision>
 	</link>
 	<joint type="revolute" name="M-AP_e04a96f2_to_R-Carpals_8d1f1041">
 		<parent link="R-Carpals_8d1f1041"/>
@@ -239,6 +335,18 @@
 			</geometry>
 			<material name="white"/>
 		</visual>
+		<collision>
+			<origin xyz="0 0 0" rpy="0.0 0.0 0.0"/>
+			<geometry>
+				<mesh filename="package://orcahand_description/v2/models/assets/right/collision/M-PP_PP.stl" scale="0.001 0.001 0.001"/>
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" rpy="0.0 0.0 0.0"/>
+			<geometry>
+				<mesh filename="package://orcahand_description/v2/models/assets/right/collision/M-PP_Skin.stl" scale="0.001 0.001 0.001"/>
+			</geometry>
+		</collision>
 	</link>
 	<joint type="revolute" name="M-PP_08efa608_to_M-AP_e04a96f2">
 		<parent link="M-AP_e04a96f2"/>
@@ -262,6 +370,18 @@
 			</geometry>
 			<material name="white"/>
 		</visual>
+		<collision>
+			<origin xyz="0 0 0" rpy="0.0 0.0 0.0"/>
+			<geometry>
+				<mesh filename="package://orcahand_description/v2/models/assets/right/collision/M-IP_IP.stl" scale="0.001 0.001 0.001"/>
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" rpy="0.0 0.0 0.0"/>
+			<geometry>
+				<mesh filename="package://orcahand_description/v2/models/assets/right/collision/M-DP-Skin.stl" scale="0.001 0.001 0.001"/>
+			</geometry>
+		</collision>
 	</link>
 	<joint type="revolute" name="M-FingerTipAssembly_34afb748_to_M-PP_08efa608">
 		<parent link="M-PP_08efa608"/>
@@ -285,6 +405,12 @@
 			</geometry>
 			<material name="white"/>
 		</visual>
+		<collision>
+			<origin xyz="0 0 0" rpy="0.0 0.0 0.0"/>
+			<geometry>
+				<mesh filename="package://orcahand_description/v2/models/assets/right/collision/I-AP-R.stl" scale="0.001 0.001 0.001"/>
+			</geometry>
+		</collision>
 	</link>
 	<joint type="revolute" name="I-AP-R_d95d02d1_to_R-Carpals_8d1f1041">
 		<parent link="R-Carpals_8d1f1041"/>
@@ -308,6 +434,18 @@
 			</geometry>
 			<material name="white"/>
 		</visual>
+		<collision>
+			<origin xyz="0 0 0" rpy="0.0 0.0 0.0"/>
+			<geometry>
+				<mesh filename="package://orcahand_description/v2/models/assets/right/collision/I-PP_PP.stl" scale="0.001 0.001 0.001"/>
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" rpy="0.0 0.0 0.0"/>
+			<geometry>
+				<mesh filename="package://orcahand_description/v2/models/assets/right/collision/I-PP_Skin.stl" scale="0.001 0.001 0.001"/>
+			</geometry>
+		</collision>
 	</link>
 	<joint type="revolute" name="I-PP_bacbd481_to_I-AP-R_d95d02d1">
 		<parent link="I-AP-R_d95d02d1"/>
@@ -331,6 +469,18 @@
 			</geometry>
 			<material name="white"/>
 		</visual>
+		<collision>
+			<origin xyz="0 0 0" rpy="0.0 0.0 0.0"/>
+			<geometry>
+				<mesh filename="package://orcahand_description/v2/models/assets/right/collision/I-IP_IP.stl" scale="0.001 0.001 0.001"/>
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" rpy="0.0 0.0 0.0"/>
+			<geometry>
+				<mesh filename="package://orcahand_description/v2/models/assets/right/collision/I-DP-Skin.stl" scale="0.001 0.001 0.001"/>
+			</geometry>
+		</collision>
 	</link>
 	<joint type="revolute" name="I-FingerTipAssembly_ec49c16c_to_I-PP_bacbd481">
 		<parent link="I-PP_bacbd481"/>
@@ -354,6 +504,12 @@
 			</geometry>
 			<material name="white"/>
 		</visual>
+		<collision>
+			<origin xyz="0 0 0" rpy="0.0 0.0 0.0"/>
+			<geometry>
+				<mesh filename="package://orcahand_description/v2/models/assets/right/collision/T-TP-R.stl" scale="0.001 0.001 0.001"/>
+			</geometry>
+		</collision>
 	</link>
 	<joint type="revolute" name="T-TP-R_1c2b802d_to_R-Carpals_8d1f1041">
 		<parent link="R-Carpals_8d1f1041"/>
@@ -377,6 +533,12 @@
 			</geometry>
 			<material name="white"/>
 		</visual>
+		<collision>
+			<origin xyz="0 0 0" rpy="0.0 0.0 0.0"/>
+			<geometry>
+				<mesh filename="package://orcahand_description/v2/models/assets/right/collision/R-T-AP.stl" scale="0.001 0.001 0.001"/>
+			</geometry>
+		</collision>
 	</link>
 	<joint type="revolute" name="R-T-AP_a9723101_to_T-TP-R_1c2b802d">
 		<parent link="T-TP-R_1c2b802d"/>
@@ -400,6 +562,18 @@
 			</geometry>
 			<material name="white"/>
 		</visual>
+		<collision>
+			<origin xyz="0 0 0" rpy="0.0 0.0 0.0"/>
+			<geometry>
+				<mesh filename="package://orcahand_description/v2/models/assets/right/collision/T-PP_PP.stl" scale="0.001 0.001 0.001"/>
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" rpy="0.0 0.0 0.0"/>
+			<geometry>
+				<mesh filename="package://orcahand_description/v2/models/assets/right/collision/T-PP_Skin.stl" scale="0.001 0.001 0.001"/>
+			</geometry>
+		</collision>
 	</link>
 	<joint type="revolute" name="T-PP_68395e98_to_R-T-AP_a9723101">
 		<parent link="R-T-AP_a9723101"/>
@@ -423,6 +597,18 @@
 			</geometry>
 			<material name="white"/>
 		</visual>
+		<collision>
+			<origin xyz="0 0 0" rpy="0.0 0.0 0.0"/>
+			<geometry>
+				<mesh filename="package://orcahand_description/v2/models/assets/right/collision/T-DP_T-DP.stl" scale="0.001 0.001 0.001"/>
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" rpy="0.0 0.0 0.0"/>
+			<geometry>
+				<mesh filename="package://orcahand_description/v2/models/assets/right/collision/T-DP_Skin.stl" scale="0.001 0.001 0.001"/>
+			</geometry>
+		</collision>
 	</link>
 	<joint type="revolute" name="T-DP_b7429e50_to_T-PP_68395e98">
 		<parent link="T-PP_68395e98"/>

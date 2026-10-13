@@ -16,6 +16,8 @@ left == mirror(right) holds exactly:
   - v2/models/urdf/orcahand_left.urdf      from v2/models/urdf/orcahand_right.urdf
   - v2/models/mjcf/orcahand_left_body.xml  from v2/models/mjcf/orcahand_right_body.xml
   - v2/models/assets/left/*.stl            from v2/models/assets/right/*.stl
+  - v2/models/assets/left/collision/*.stl  from v2/models/assets/right/collision/*.stl
+    (convex collision hulls, see utils/make_collision_hulls.py)
 
 Reflection across the x=0 plane with M = diag(-1, 1, 1). Because URDF rpy is
 extrinsic XYZ (R = Rz(y) @ Ry(p) @ Rx(r)) and M @ Rx(r) @ M = Rx(r),
@@ -63,6 +65,8 @@ BODY_RIGHT = V2 / "models" / "mjcf" / "orcahand_right_body.xml"
 BODY_LEFT = V2 / "models" / "mjcf" / "orcahand_left_body.xml"
 MESH_RIGHT_DIR = V2 / "models" / "assets" / "right"
 MESH_LEFT_DIR = V2 / "models" / "assets" / "left"
+COLLISION_RIGHT_DIR = MESH_RIGHT_DIR / "collision"
+COLLISION_LEFT_DIR = MESH_LEFT_DIR / "collision"
 
 # Right link name (with Fusion export hash) -> existing left link name.
 # The left hashes are kept so all downstream joint/body/contact names survive.
@@ -256,6 +260,9 @@ def generate() -> dict:
         src = MESH_RIGHT_DIR / _right_mesh_name(left_name)
         note = f"mirror(x) of right/{src.name} by utils/mirror_left_from_right.py"
         files[MESH_LEFT_DIR / left_name] = mirror_stl(src.read_bytes(), note)
+    for src in sorted(COLLISION_RIGHT_DIR.glob("*.stl")):
+        note = f"mirror(x) of right/collision/{src.name} by utils/mirror_left_from_right.py"
+        files[COLLISION_LEFT_DIR / f"{_rename(src.stem)}.stl"] = mirror_stl(src.read_bytes(), note)
     return files
 
 
@@ -298,6 +305,7 @@ def main(argv=None) -> int:
         print(f"OK: all {len(files)} left files are exact mirrors of right.")
         return 0
 
+    COLLISION_LEFT_DIR.mkdir(exist_ok=True)
     for path, data in files.items():
         path.write_bytes(data)
     print(f"Wrote {len(files)} left files mirrored from right "
