@@ -54,18 +54,15 @@
 		<mesh name="left_col_ForeArmStructure-Model" file="models/assets/left/collision/ForeArmStructure-Model.stl" />
 		<mesh name="left_col_TopTower-Model" file="models/assets/left/collision/TopTower-Model.stl" />
 		<mesh name="left_col_I-AP-L" file="models/assets/left/collision/I-AP-L.stl" />
-		<mesh name="left_col_I-PP_PP" file="models/assets/left/collision/I-PP_PP.stl" />
 		<mesh name="left_col_I-PP_Skin" file="models/assets/left/collision/I-PP_Skin.stl" />
 		<mesh name="left_col_I-IP_IP" file="models/assets/left/collision/I-IP_IP.stl" />
 		<mesh name="left_col_I-DP-Skin" file="models/assets/left/collision/I-DP-Skin.stl" />
 		<mesh name="left_col_M-IP_IP" file="models/assets/left/collision/M-IP_IP.stl" />
 		<mesh name="left_col_M-DP-Skin" file="models/assets/left/collision/M-DP-Skin.stl" />
-		<mesh name="left_col_M-PP_PP" file="models/assets/left/collision/M-PP_PP.stl" />
 		<mesh name="left_col_M-PP_Skin" file="models/assets/left/collision/M-PP_Skin.stl" />
 		<mesh name="left_col_M-AP" file="models/assets/left/collision/M-AP.stl" />
 		<mesh name="left_col_P-IP_IP" file="models/assets/left/collision/P-IP_IP.stl" />
 		<mesh name="left_col_P-DP-Skin" file="models/assets/left/collision/P-DP-Skin.stl" />
-		<mesh name="left_col_P-PP_PP" file="models/assets/left/collision/P-PP_PP.stl" />
 		<mesh name="left_col_P-PP_Skin" file="models/assets/left/collision/P-PP_Skin.stl" />
 		<mesh name="left_col_P-AP" file="models/assets/left/collision/P-AP.stl" />
 		<mesh name="left_col_T-DP_T-DP" file="models/assets/left/collision/T-DP_T-DP.stl" />
@@ -74,9 +71,33 @@
 		<mesh name="left_col_T-PP_Skin" file="models/assets/left/collision/T-PP_Skin.stl" />
 		<mesh name="left_col_L-T-AP" file="models/assets/left/collision/L-T-AP.stl" />
 		<mesh name="left_col_T-TP-L" file="models/assets/left/collision/T-TP-L.stl" />
-		<mesh name="left_col_L-Carpals_distal" file="models/assets/left/collision/L-Carpals_distal.stl" />
-		<mesh name="left_col_L-Carpals_proximal" file="models/assets/left/collision/L-Carpals_proximal.stl" />
 		<mesh name="left_col_L-Carpals_wrist" file="models/assets/left/collision/L-Carpals_wrist.stl" />
+		<mesh name="left_col_L-Carpals_heel" file="models/assets/left/collision/L-Carpals_heel.stl" />
+		<mesh name="left_col_L-Carpals_center_lo" file="models/assets/left/collision/L-Carpals_center_lo.stl" />
+		<mesh name="left_col_L-Carpals_center_hi" file="models/assets/left/collision/L-Carpals_center_hi.stl" />
+		<mesh name="left_col_L-Carpals_thumb_floor" file="models/assets/left/collision/L-Carpals_thumb_floor.stl" />
+		<mesh name="left_col_L-Carpals_thumb_top_out" file="models/assets/left/collision/L-Carpals_thumb_top_out.stl" />
+		<mesh name="left_col_L-Carpals_thumb_top_in" file="models/assets/left/collision/L-Carpals_thumb_top_in.stl" />
+		<mesh name="left_col_L-Carpals_plate" file="models/assets/left/collision/L-Carpals_plate.stl" />
+		<mesh name="left_col_L-Carpals_thenar_out" file="models/assets/left/collision/L-Carpals_thenar_out.stl" />
+		<mesh name="left_col_L-Carpals_thenar_in" file="models/assets/left/collision/L-Carpals_thenar_in.stl" />
+		<mesh name="left_col_L-Carpals_index_dorsal" file="models/assets/left/collision/L-Carpals_index_dorsal.stl" />
+		<mesh name="left_col_L-Carpals_index_palmar" file="models/assets/left/collision/L-Carpals_index_palmar.stl" />
+		<mesh name="left_col_L-Carpals_middle_base" file="models/assets/left/collision/L-Carpals_middle_base.stl" />
+		<mesh name="left_col_L-Carpals_middle_dorsal" file="models/assets/left/collision/L-Carpals_middle_dorsal.stl" />
+		<mesh name="left_col_L-Carpals_middle_palmar_lo" file="models/assets/left/collision/L-Carpals_middle_palmar_lo.stl" />
+		<mesh name="left_col_L-Carpals_middle_palmar_hi" file="models/assets/left/collision/L-Carpals_middle_palmar_hi.stl" />
+		<mesh name="left_col_L-Carpals_ring_dorsal" file="models/assets/left/collision/L-Carpals_ring_dorsal.stl" />
+		<mesh name="left_col_L-Carpals_ring_palmar" file="models/assets/left/collision/L-Carpals_ring_palmar.stl" />
+		<mesh name="left_col_L-Carpals_ring_pinky_step" file="models/assets/left/collision/L-Carpals_ring_pinky_step.stl" />
+		<mesh name="left_col_L-Carpals_pinky_dorsal" file="models/assets/left/collision/L-Carpals_pinky_dorsal.stl" />
+		<mesh name="left_col_L-Carpals_pinky_palmar" file="models/assets/left/collision/L-Carpals_pinky_palmar.stl" />
+		<mesh name="left_col_I-PP_PP_base" file="models/assets/left/collision/I-PP_PP_base.stl" />
+		<mesh name="left_col_I-PP_PP_shaft" file="models/assets/left/collision/I-PP_PP_shaft.stl" />
+		<mesh name="left_col_M-PP_PP_base" file="models/assets/left/collision/M-PP_PP_base.stl" />
+		<mesh name="left_col_M-PP_PP_shaft" file="models/assets/left/collision/M-PP_PP_shaft.stl" />
+		<mesh name="left_col_P-PP_PP_base" file="models/assets/left/collision/P-PP_PP_base.stl" />
+		<mesh name="left_col_P-PP_PP_shaft" file="models/assets/left/collision/P-PP_PP_shaft.stl" />
 	</asset>
 	<actuator>
 		<position name="left_wrist_actuator" joint="left_wrist" ctrlrange="-1.1344640137963142 0.6108652381980153" />

@@ -50,7 +50,8 @@
 							<joint name="right_index_mcp" pos="-8.461858417315034e-17 1.4799510442361432e-17 -1.3855749603332276e-17" axis="5.828670879282072e-15 -1.0000000000000036 1.1102230246251565e-16" range="-0.4363323129985824 1.7453292519943295" ref="0.0" />
 							<geom mesh="right_I-PP_Skin" material="white" pos="-2.7755575615628914e-19 4.440892098500626e-18 0.0" quat="1.0 0.0 -4.336808689942018e-19 -6.830473686658678e-18" contype="0" conaffinity="0" group="2" />
 							<geom mesh="right_I-PP_PP" material="black" pos="-2.7755575615628914e-19 4.440892098500626e-18 0.0" quat="1.0 0.0 -4.336808689942018e-19 -6.830473686658678e-18" contype="0" conaffinity="0" group="2" />
-							<geom class="right_collision" mesh="right_col_I-PP_PP" />
+							<geom class="right_collision" mesh="right_col_I-PP_PP_base" />
+							<geom class="right_collision" mesh="right_col_I-PP_PP_shaft" />
 							<geom class="right_collision_skin" mesh="right_col_I-PP_Skin" />
 						</body>
 						<joint name="right_index_abd" pos="0.01875000000000003 1.734723475976807e-18 0.000999999999999964" axis="-8.326672684688674e-17 3.3306690738754696e-16 0.9999999999999991" range="-0.4363323129985824 0.5235987755982988" ref="0.0" />
@@ -72,7 +73,8 @@
 							<joint name="right_middle_mcp" pos="-7.162795302343035e-17 -1.2189131211851784e-17 -1.7580316556723272e-17" axis="6.050715484207103e-15 -1.0000000000000058 -1.1102230246251565e-16" range="-0.4363323129985824 1.7453292519943295" ref="0.0" />
 							<geom mesh="right_M-PP_Skin" material="white" pos="0.0 -1.1102230246251566e-18 0.0" quat="1.0 -1.0842021724855044e-19 -6.162975822039155e-33 1.5931051758728167e-31" contype="0" conaffinity="0" group="2" />
 							<geom mesh="right_M-PP_PP" material="black" pos="0.0 -1.1102230246251566e-18 0.0" quat="1.0 -1.0842021724855044e-19 -6.162975822039155e-33 1.5931051758728167e-31" contype="0" conaffinity="0" group="2" />
-							<geom class="right_collision" mesh="right_col_M-PP_PP" />
+							<geom class="right_collision" mesh="right_col_M-PP_PP_base" />
+							<geom class="right_collision" mesh="right_col_M-PP_PP_shaft" />
 							<geom class="right_collision_skin" mesh="right_col_M-PP_Skin" />
 						</body>
 						<joint name="right_middle_abd" pos="0.019249999999999982 -1.214306433183765e-17 0.0010000000000000213" axis="1.1102230246251565e-15 -2.220446049250313e-16 0.9999999999999971" range="-0.47123889803846897 0.47123889803846897" ref="0.0" />
@@ -94,7 +96,8 @@
 							<joint name="right_ring_mcp" pos="1.7894285379910634e-17 1.0522308765464415e-17 -1.0523467387009805e-17" axis="5.9396931817445875e-15 -1.0000000000000042 1.1102230246251565e-16" range="-0.4363323129985824 1.7453292519943295" ref="0.0" />
 							<geom mesh="right_M-PP_Skin" material="white" pos="-5.551115123125783e-19 0.0 -3.552713678800501e-17" quat="1.0 0.0 1.0744787839022148e-18 -3.948277295454671e-18" contype="0" conaffinity="0" group="2" />
 							<geom mesh="right_M-PP_PP" material="black" pos="-5.551115123125783e-19 0.0 -3.552713678800501e-17" quat="1.0 0.0 1.0744787839022148e-18 -3.948277295454671e-18" contype="0" conaffinity="0" group="2" />
-							<geom class="right_collision" mesh="right_col_M-PP_PP" />
+							<geom class="right_collision" mesh="right_col_M-PP_PP_base" />
+							<geom class="right_collision" mesh="right_col_M-PP_PP_shaft" />
 							<geom class="right_collision_skin" mesh="right_col_M-PP_Skin" />
 						</body>
 						<joint name="right_ring_abd" pos="0.019249999999999923 1.734723475976807e-18 0.0009999999999999961" axis="8.881784197001252e-16 -5.551115123125783e-17 0.9999999999999994" range="-0.47123889803846897 0.47123889803846897" ref="0.0" />
@@ -116,7 +119,8 @@
 							<joint name="right_pinky_mcp" pos="-4.1531875769068695e-17 9.105164359140306e-18 3.8292038109168244e-17" axis="6.439293542825908e-15 -1.0000000000000049 6.661338147750939e-16" range="-0.4363323129985824 1.7453292519943295" ref="0.0" />
 							<geom mesh="right_P-PP_Skin" material="white" pos="1.1102230246251566e-18 8.881784197001253e-18 0.0" quat="1.0 -1.3877787807814457e-17 -4.7704895589362195e-18 5.637851296924623e-18" contype="0" conaffinity="0" group="2" />
 							<geom mesh="right_P-PP_PP" material="black" pos="1.1102230246251566e-18 8.881784197001253e-18 0.0" quat="1.0 -1.3877787807814457e-17 -4.7704895589362195e-18 5.637851296924623e-18" contype="0" conaffinity="0" group="2" />
-							<geom class="right_collision" mesh="right_col_P-PP_PP" />
+							<geom class="right_collision" mesh="right_col_P-PP_PP_base" />
+							<geom class="right_collision" mesh="right_col_P-PP_PP_shaft" />
 							<geom class="right_collision_skin" mesh="right_col_P-PP_Skin" />
 						</body>
 						<joint name="right_pinky_abd" pos="0.017749999999999967 2.42861286636753e-17 0.0010000000000000217" axis="9.71445146547012e-16 1.6653345369377348e-16 0.9999999999999984" range="-0.5235987755982988 0.5235987755982988" ref="0.0" />
@@ -125,9 +129,27 @@
 					</body>
 					<joint name="right_wrist" pos="0.004999999999999997 0.0018770780631086805 -0.049500000670552255" axis="-0.9999999999999963 -1.1270242357758872e-16 5.94450127715256e-17" range="-1.1344640137963142 0.6108652381980153" ref="0.0" />
 					<geom mesh="right_R-Carpals" material="black" contype="0" conaffinity="0" group="2" />
-					<geom class="right_collision" mesh="right_col_R-Carpals_distal" />
-					<geom class="right_collision" mesh="right_col_R-Carpals_proximal" />
 					<geom class="right_collision" mesh="right_col_R-Carpals_wrist" />
+					<geom class="right_collision" mesh="right_col_R-Carpals_heel" />
+					<geom class="right_collision" mesh="right_col_R-Carpals_center_lo" />
+					<geom class="right_collision" mesh="right_col_R-Carpals_center_hi" />
+					<geom class="right_collision" mesh="right_col_R-Carpals_thumb_floor" />
+					<geom class="right_collision" mesh="right_col_R-Carpals_thumb_top_out" />
+					<geom class="right_collision" mesh="right_col_R-Carpals_thumb_top_in" />
+					<geom class="right_collision" mesh="right_col_R-Carpals_plate" />
+					<geom class="right_collision" mesh="right_col_R-Carpals_thenar_out" />
+					<geom class="right_collision" mesh="right_col_R-Carpals_thenar_in" />
+					<geom class="right_collision" mesh="right_col_R-Carpals_index_dorsal" />
+					<geom class="right_collision" mesh="right_col_R-Carpals_index_palmar" />
+					<geom class="right_collision" mesh="right_col_R-Carpals_middle_base" />
+					<geom class="right_collision" mesh="right_col_R-Carpals_middle_dorsal" />
+					<geom class="right_collision" mesh="right_col_R-Carpals_middle_palmar_lo" />
+					<geom class="right_collision" mesh="right_col_R-Carpals_middle_palmar_hi" />
+					<geom class="right_collision" mesh="right_col_R-Carpals_ring_dorsal" />
+					<geom class="right_collision" mesh="right_col_R-Carpals_ring_palmar" />
+					<geom class="right_collision" mesh="right_col_R-Carpals_ring_pinky_step" />
+					<geom class="right_collision" mesh="right_col_R-Carpals_pinky_dorsal" />
+					<geom class="right_collision" mesh="right_col_R-Carpals_pinky_palmar" />
 				</body>
 				<geom mesh="right_TopTower-Model" material="black" contype="0" conaffinity="0" group="2" />
 				<geom class="right_collision" mesh="right_col_TopTower-Model" />

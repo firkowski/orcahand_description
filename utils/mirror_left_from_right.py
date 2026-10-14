@@ -289,11 +289,15 @@ def main(argv=None) -> int:
 
     stale = [str(p.relative_to(REPO_ROOT)) for p, data in files.items()
              if not p.exists() or p.read_bytes() != data]
+    # Left collision hulls whose right counterpart no longer exists.
+    orphans = sorted(set(COLLISION_LEFT_DIR.glob("*.stl")) - set(files))
     if args.check:
-        if stale:
+        if stale or orphans:
             print("STALE (left != mirror(right)):")
             for p in stale:
                 print(f"  {p}")
+            for p in orphans:
+                print(f"  {p.relative_to(REPO_ROOT)} (no right counterpart)")
             return 1
         print(f"OK: all {len(files)} left files are exact mirrors of right.")
         return 0
@@ -301,8 +305,10 @@ def main(argv=None) -> int:
     COLLISION_LEFT_DIR.mkdir(exist_ok=True)
     for path, data in files.items():
         path.write_bytes(data)
+    for path in orphans:
+        path.unlink()
     print(f"Wrote {len(files)} left files mirrored from right "
-          f"({len(stale)} changed).")
+          f"({len(stale)} changed, {len(orphans)} orphaned collision hulls removed).")
     return 0
 
 

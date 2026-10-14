@@ -70,19 +70,127 @@
 		<collision>
 			<origin xyz="0.004999999999999997 -0.0018770780631086805 0.049500000670552255" rpy="0.0 0.0 0.0"/>
 			<geometry>
-				<mesh filename="package://orcahand_description/v2/models/assets/left/collision/L-Carpals_distal.stl" scale="0.001 0.001 0.001"/>
-			</geometry>
-		</collision>
-		<collision>
-			<origin xyz="0.004999999999999997 -0.0018770780631086805 0.049500000670552255" rpy="0.0 0.0 0.0"/>
-			<geometry>
-				<mesh filename="package://orcahand_description/v2/models/assets/left/collision/L-Carpals_proximal.stl" scale="0.001 0.001 0.001"/>
-			</geometry>
-		</collision>
-		<collision>
-			<origin xyz="0.004999999999999997 -0.0018770780631086805 0.049500000670552255" rpy="0.0 0.0 0.0"/>
-			<geometry>
 				<mesh filename="package://orcahand_description/v2/models/assets/left/collision/L-Carpals_wrist.stl" scale="0.001 0.001 0.001"/>
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.004999999999999997 -0.0018770780631086805 0.049500000670552255" rpy="0.0 0.0 0.0"/>
+			<geometry>
+				<mesh filename="package://orcahand_description/v2/models/assets/left/collision/L-Carpals_heel.stl" scale="0.001 0.001 0.001"/>
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.004999999999999997 -0.0018770780631086805 0.049500000670552255" rpy="0.0 0.0 0.0"/>
+			<geometry>
+				<mesh filename="package://orcahand_description/v2/models/assets/left/collision/L-Carpals_center_lo.stl" scale="0.001 0.001 0.001"/>
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.004999999999999997 -0.0018770780631086805 0.049500000670552255" rpy="0.0 0.0 0.0"/>
+			<geometry>
+				<mesh filename="package://orcahand_description/v2/models/assets/left/collision/L-Carpals_center_hi.stl" scale="0.001 0.001 0.001"/>
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.004999999999999997 -0.0018770780631086805 0.049500000670552255" rpy="0.0 0.0 0.0"/>
+			<geometry>
+				<mesh filename="package://orcahand_description/v2/models/assets/left/collision/L-Carpals_thumb_floor.stl" scale="0.001 0.001 0.001"/>
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.004999999999999997 -0.0018770780631086805 0.049500000670552255" rpy="0.0 0.0 0.0"/>
+			<geometry>
+				<mesh filename="package://orcahand_description/v2/models/assets/left/collision/L-Carpals_thumb_top_out.stl" scale="0.001 0.001 0.001"/>
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.004999999999999997 -0.0018770780631086805 0.049500000670552255" rpy="0.0 0.0 0.0"/>
+			<geometry>
+				<mesh filename="package://orcahand_description/v2/models/assets/left/collision/L-Carpals_thumb_top_in.stl" scale="0.001 0.001 0.001"/>
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.004999999999999997 -0.0018770780631086805 0.049500000670552255" rpy="0.0 0.0 0.0"/>
+			<geometry>
+				<mesh filename="package://orcahand_description/v2/models/assets/left/collision/L-Carpals_plate.stl" scale="0.001 0.001 0.001"/>
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.004999999999999997 -0.0018770780631086805 0.049500000670552255" rpy="0.0 0.0 0.0"/>
+			<geometry>
+				<mesh filename="package://orcahand_description/v2/models/assets/left/collision/L-Carpals_thenar_out.stl" scale="0.001 0.001 0.001"/>
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.004999999999999997 -0.0018770780631086805 0.049500000670552255" rpy="0.0 0.0 0.0"/>
+			<geometry>
+				<mesh filename="package://orcahand_description/v2/models/assets/left/collision/L-Carpals_thenar_in.stl" scale="0.001 0.001 0.001"/>
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.004999999999999997 -0.0018770780631086805 0.049500000670552255" rpy="0.0 0.0 0.0"/>
+			<geometry>
+				<mesh filename="package://orcahand_description/v2/models/assets/left/collision/L-Carpals_index_dorsal.stl" scale="0.001 0.001 0.001"/>
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.004999999999999997 -0.0018770780631086805 0.049500000670552255" rpy="0.0 0.0 0.0"/>
+			<geometry>
+				<mesh filename="package://orcahand_description/v2/models/assets/left/collision/L-Carpals_index_palmar.stl" scale="0.001 0.001 0.001"/>
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.004999999999999997 -0.0018770780631086805 0.049500000670552255" rpy="0.0 0.0 0.0"/>
+			<geometry>
+				<mesh filename="package://orcahand_description/v2/models/assets/left/collision/L-Carpals_middle_base.stl" scale="0.001 0.001 0.001"/>
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.004999999999999997 -0.0018770780631086805 0.049500000670552255" rpy="0.0 0.0 0.0"/>
+			<geometry>
+				<mesh filename="package://orcahand_description/v2/models/assets/left/collision/L-Carpals_middle_dorsal.stl" scale="0.001 0.001 0.001"/>
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.004999999999999997 -0.0018770780631086805 0.049500000670552255" rpy="0.0 0.0 0.0"/>
+			<geometry>
+				<mesh filename="package://orcahand_description/v2/models/assets/left/collision/L-Carpals_middle_palmar_lo.stl" scale="0.001 0.001 0.001"/>
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.004999999999999997 -0.0018770780631086805 0.049500000670552255" rpy="0.0 0.0 0.0"/>
+			<geometry>
+				<mesh filename="package://orcahand_description/v2/models/assets/left/collision/L-Carpals_middle_palmar_hi.stl" scale="0.001 0.001 0.001"/>
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.004999999999999997 -0.0018770780631086805 0.049500000670552255" rpy="0.0 0.0 0.0"/>
+			<geometry>
+				<mesh filename="package://orcahand_description/v2/models/assets/left/collision/L-Carpals_ring_dorsal.stl" scale="0.001 0.001 0.001"/>
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.004999999999999997 -0.0018770780631086805 0.049500000670552255" rpy="0.0 0.0 0.0"/>
+			<geometry>
+				<mesh filename="package://orcahand_description/v2/models/assets/left/collision/L-Carpals_ring_palmar.stl" scale="0.001 0.001 0.001"/>
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.004999999999999997 -0.0018770780631086805 0.049500000670552255" rpy="0.0 0.0 0.0"/>
+			<geometry>
+				<mesh filename="package://orcahand_description/v2/models/assets/left/collision/L-Carpals_ring_pinky_step.stl" scale="0.001 0.001 0.001"/>
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.004999999999999997 -0.0018770780631086805 0.049500000670552255" rpy="0.0 0.0 0.0"/>
+			<geometry>
+				<mesh filename="package://orcahand_description/v2/models/assets/left/collision/L-Carpals_pinky_dorsal.stl" scale="0.001 0.001 0.001"/>
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.004999999999999997 -0.0018770780631086805 0.049500000670552255" rpy="0.0 0.0 0.0"/>
+			<geometry>
+				<mesh filename="package://orcahand_description/v2/models/assets/left/collision/L-Carpals_pinky_palmar.stl" scale="0.001 0.001 0.001"/>
 			</geometry>
 		</collision>
 	</link>
@@ -140,7 +248,13 @@
 		<collision>
 			<origin xyz="-4.1531875769068695e-17 -9.105164359140306e-18 -3.8292038109168244e-17" rpy="0.0 0.0 0.0"/>
 			<geometry>
-				<mesh filename="package://orcahand_description/v2/models/assets/left/collision/P-PP_PP.stl" scale="0.001 0.001 0.001"/>
+				<mesh filename="package://orcahand_description/v2/models/assets/left/collision/P-PP_PP_base.stl" scale="0.001 0.001 0.001"/>
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="-4.1531875769068695e-17 -9.105164359140306e-18 -3.8292038109168244e-17" rpy="0.0 0.0 0.0"/>
+			<geometry>
+				<mesh filename="package://orcahand_description/v2/models/assets/left/collision/P-PP_PP_shaft.stl" scale="0.001 0.001 0.001"/>
 			</geometry>
 		</collision>
 		<collision>
@@ -239,7 +353,13 @@
 		<collision>
 			<origin xyz="1.7894285379910634e-17 -1.0522308765464415e-17 1.0523467387009805e-17" rpy="0.0 0.0 0.0"/>
 			<geometry>
-				<mesh filename="package://orcahand_description/v2/models/assets/left/collision/M-PP_PP.stl" scale="0.001 0.001 0.001"/>
+				<mesh filename="package://orcahand_description/v2/models/assets/left/collision/M-PP_PP_base.stl" scale="0.001 0.001 0.001"/>
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="1.7894285379910634e-17 -1.0522308765464415e-17 1.0523467387009805e-17" rpy="0.0 0.0 0.0"/>
+			<geometry>
+				<mesh filename="package://orcahand_description/v2/models/assets/left/collision/M-PP_PP_shaft.stl" scale="0.001 0.001 0.001"/>
 			</geometry>
 		</collision>
 		<collision>
@@ -338,7 +458,13 @@
 		<collision>
 			<origin xyz="-7.162795302343035e-17 1.2189131211851784e-17 1.7580316556723272e-17" rpy="0.0 0.0 0.0"/>
 			<geometry>
-				<mesh filename="package://orcahand_description/v2/models/assets/left/collision/M-PP_PP.stl" scale="0.001 0.001 0.001"/>
+				<mesh filename="package://orcahand_description/v2/models/assets/left/collision/M-PP_PP_base.stl" scale="0.001 0.001 0.001"/>
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="-7.162795302343035e-17 1.2189131211851784e-17 1.7580316556723272e-17" rpy="0.0 0.0 0.0"/>
+			<geometry>
+				<mesh filename="package://orcahand_description/v2/models/assets/left/collision/M-PP_PP_shaft.stl" scale="0.001 0.001 0.001"/>
 			</geometry>
 		</collision>
 		<collision>
@@ -437,7 +563,13 @@
 		<collision>
 			<origin xyz="-8.461858417315034e-17 -1.4799510442361432e-17 1.3855749603332276e-17" rpy="0.0 0.0 0.0"/>
 			<geometry>
-				<mesh filename="package://orcahand_description/v2/models/assets/left/collision/I-PP_PP.stl" scale="0.001 0.001 0.001"/>
+				<mesh filename="package://orcahand_description/v2/models/assets/left/collision/I-PP_PP_base.stl" scale="0.001 0.001 0.001"/>
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="-8.461858417315034e-17 -1.4799510442361432e-17 1.3855749603332276e-17" rpy="0.0 0.0 0.0"/>
+			<geometry>
+				<mesh filename="package://orcahand_description/v2/models/assets/left/collision/I-PP_PP_shaft.stl" scale="0.001 0.001 0.001"/>
 			</geometry>
 		</collision>
 		<collision>
